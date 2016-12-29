@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Georgia';
+}
+
+/******************* Header *******************/
+.navbar-header {
+	position: relative;
+	height: 60px;
+}
+
+.navbar-brand {
+	padding: 0;
+}
+
+.navbar-brand h1 {
+	font-size: 2em;
+	margin: 8px 15px;
+	color: #8DDEE9;
+	text-transform: uppercase;
+  	font-weight: bold;
+  	text-shadow: 0 1px 1px #3F8D97;
+}
+
+.navbar-toggle {
+	position: absolute;
+	right: 0;
+	top: 5px;
+}
+
+#nav-list {
+	background-color: #8DDEE9;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+#nav-list a {
+	color: #3F8D97;
+}
+
+#nav-list a:hover {
+	color: #ddd;
+}
+
+/******************* Main Content *******************/
+.main-content-tile {
+	height: 1000px;
+	background-color: #8DDEE9;
+}
